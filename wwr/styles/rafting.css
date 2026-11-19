@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: var(--body-font);
+    color: var(--accent1-color)
+}
+
+:root {
+    --primary-color: #023E8A;    /* deep river blue */
+    --secondary-color: #0077B6;  /* adventure blue */
+    --accent1-color: #00B4D8;    /* bright water blue */
+    --accent2-color: #CAF0F8;    /* river foam */
+    --heading-color: #FFFFFF;    /* white */
+
+    --heading-font: Georgia, serif;
+    --body-font: Arial, Helvetica, sans-serif;
+}
+
+h1, h2{
+    font-family: var(--heading-color);
+    color: var(--primary-color);
+}
+
+nav, p, section, article{
+    margin: 16px;
+    padding: 8px;
+}
+
+header img{
+    width: 200px;
+    height: auto;
+}
+
+.socialmedia img {
+    width: 40px;
+    height: auto;
+    text-decoration: none;
+}
+
+header, main, footer{
+    width: 840px;
+    margin: auto;
+}
+
+h1 {
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: rgba(31, 91, 122, 0.99);
+    color: white; 
+}
+
+.hero article {
+    position: absolute;
+    bottom: 355px;
+    right: 25px;
+    left: 25px;
+    background-color: rgba(31, 91, 122, 0.9);
+    color: white;
+    padding: 5px 5px;}
+    
+
+.hero article img{
+    float: right;
+    width: 140px;
+    
+}
+.hero{
+    position: relative;
+}
+
+.hero img{
+    display: block;
+    width: 100%;
+    height: auto;
+    
+}
