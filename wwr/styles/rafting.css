@@ -11,9 +11,9 @@ body{
 
 :root {
     --primary-color: #023E8A;    /* deep river blue */
-    --secondary-color: #0077B6;  /* adventure blue */
-    --accent1-color: #00B4D8;    /* bright water blue */
-    --accent2-color: #CAF0F8;    /* river foam */
+    --secondary-color: #001F3F;  /* adventure blue */
+    --accent1-color: #023E8A;    /* bright water blue */
+    --accent2-color: #102A43;    /* river foam */
     --heading-color: #FFFFFF;    /* white */
 
     --heading-font: Georgia, serif;
@@ -21,7 +21,7 @@ body{
 }
 
 h1, h2{
-    font-family: var(--heading-color);
+    font-family: var(--heading-font);
     color: var(--primary-color);
 }
 
@@ -67,7 +67,7 @@ h2{
     padding: 5px;
     text-align: center;
     opacity: 0.9;
-    background-color: #001F3F;
+    background-color: var(--secondary-color);
     color: white; 
 }
 
@@ -98,7 +98,13 @@ h2{
     
 }
 
-@media (max-width: 768px) {
+footer{
+    background-color: var(--accent2-color);
+    color: var(--heading-color);
+}
+
+@media (max-width: 768px)
+ {
     .hero article img {
         display: none;
     }
